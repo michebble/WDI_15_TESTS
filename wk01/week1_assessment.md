@@ -5,15 +5,28 @@
 #### Assume your present working directory is `$ ~/buffy`
 
 1. Make two directories inside `~/buffy`: `scoobies` and `vamps`
+
+$ mkdir scoobies/ vamps/
+
+
 <br><br><br>
 
 2. Make files in `scoobies` named `buffy.txt`, `giles.txt` and `angel.txt`
+
+$ touch scoobies/angel.txt scoobies/buffy.txt scoobies/giles.txt
+
 <br><br><br>
 
 3. Copy `angel.txt` into the `vamps` directory
+
+$ cp scoobies/angel.txt vamps/
+
 <br><br>
 
 4. Delete the `vamps` directory and everything inside it
+
+$ rm -r vamps/
+
 <br><br>
 
 ### JS Variables
